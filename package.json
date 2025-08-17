@@ -1,7 +1,7 @@
 {
-	"name": "minecraft-addon-template",
+	"name": "mc-addon-go-home",
 	"version": "1.0.0",
-	"description": "Template for minecraft Script API addons with typescript.",
+	"description": "Addon for teleporting to respown point.",
 	"license": "ISC",
 	"author": "tokun4869",
 	"type": "module",

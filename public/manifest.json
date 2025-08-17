@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "<addon name>",
+		"name": "Go Home",
 		"description": "Sort Inventory Beheivior Pack",
-		"uuid": "<UUID 1>",
+		"uuid": "3b6a5917-fad9-47f3-9ad8-97b7c0dae49e",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 21, 0]
 	},
@@ -12,7 +12,7 @@
 			"description": " ",
 			"type": "script",
 			"entry": "scripts/index.js",
-			"uuid": "<UUID 2>",
+			"uuid": "cf3202c2-121f-41b8-b7f7-ff849f20cc84",
 			"version": [1, 0, 0]
 		}
 	],
