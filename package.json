@@ -1,0 +1,31 @@
+{
+	"name": "minecraft-addon-template",
+	"version": "1.0.0",
+	"description": "Template for minecraft Script API addons with typescript.",
+	"license": "ISC",
+	"author": "tokun4869",
+	"type": "module",
+	"main": "dist/scripts/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc && tsc-alias",
+		"prepare": "husky",
+		"lint": "biome check .",
+		"lint:fix": "biome check --fix ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.0",
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"husky": "^9.1.7",
+		"tsc-alias": "^1.8.16",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"@minecraft/server": "^2.1.0"
+	},
+	"volta": {
+		"node": "22.18.0",
+		"pnpm": "10.14.0"
+	}
+}
